@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap"); /* font for titles and dates */
+/* font-family: "Oswald", sans-serif;  */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap"); /* all other data */
+/* font-family: 'Open Sans', sans-serif;  font-weight: 600; */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #8e8d8a;
+}
+.container {
+  background-color: #eae7dc;
+  margin: 0rem 20%;
+  padding-bottom: 5rem;
+}
+
+.header-container {
+  margin: 2rem 0 2rem 2rem;
+  display: flex;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: #e85a4f;
+  padding-top: 1rem;
+  font-size: 35px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #3a3a3a;
+  font-size: 28px;
+  padding: 2rem 0 0 2rem;
+}
+
+.header-details {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  color: #3a3a3a;
+  font-size: 14px;
+  padding: 10px 0 0 2rem;
+}
+
+.title {
+  font-family: "Oswald", sans-serif;
+  color: #e85a4f;
+  margin: 2rem;
+  font-size: 22px;
+}
+
+.card-title {
+  font-size: 21px;
+  padding: 0;
+}
+
+button {
+  font-size: 18px;
+  font-family: "Oswald", sans-serif;
+  color: #eae7dc;
+  background-color: #e85a4f;
+  border: none;
+  padding: 2px 7px;
+}
+
+.rem-margin {
+  margin-left: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #e8594fcc;
+}
+
+.card-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  color: #3a3a3a;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+a {
+  color: #eae7dc;
+  text-decoration: none;
+}
+
+.link {
+  color: #e85a4f;
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
