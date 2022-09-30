@@ -105,3 +105,29 @@ a {
   display: flex;
   justify-content: center;
 }
+
+.title-button-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    margin: 0;
+  }
+  .header-container {
+    display: block;
+  }
+  h3 {
+    padding: 2rem 0 0 0;
+  }
+  .header-details {
+    padding: 10px 0 0 0rem;
+  }
+  .title-button-flex {
+    display: block;
+  }
+  button {
+    margin-top: 10px;
+  }
+}
